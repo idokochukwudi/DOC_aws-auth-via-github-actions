@@ -1,0 +1,1 @@
+# DOC_aws-auth-via-github-actions
