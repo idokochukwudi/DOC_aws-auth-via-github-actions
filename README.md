@@ -247,11 +247,11 @@ terraform apply
 
 ![](./img/5.apply-successful.png)
 
-- Verified that the secrets `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY` appeared in GitHub repository secrets.
+#### Verified that the secrets `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY` appeared in GitHub repository secrets.
 
 ![](./img/7.accessid-accesskey-created.png)
 
-- Captured snapshot of IAM user in AWS Console
+#### Captured snapshot of IAM user in AWS Console
 
 ![](./img/6.user-created.png)
 
@@ -320,3 +320,5 @@ If your main branch requires pull request approvals:
 - Ask a reviewer to approve and merge the PR
 - Once merged, GitHub Actions will automatically trigger the `aws-auth.yml` pipeline
 - You can also manually test from GitHub UI via "Run Workflow" under the `Actions` tab
+
+  ![](./img/8.pipeline-run-successfuly.png)
