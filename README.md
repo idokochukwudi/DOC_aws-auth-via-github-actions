@@ -322,3 +322,19 @@ If your main branch requires pull request approvals:
 - You can also manually test from GitHub UI via "Run Workflow" under the `Actions` tab
 
   ![](./img/8.pipeline-run-successfuly.png)
+
+## Conclusion
+
+This project successfully demonstrates how to securely authenticate GitHub Actions with AWS using static credentials managed through Terraform. By automating the creation of an IAM user, securely storing credentials in GitHub Secrets, and validating access to AWS services (e.g., S3), we’ve established a strong foundation for CI/CD workflows in cloud-based data engineering environments.
+
+#### Key takeaways include:
+
+- Use of modular Terraform for reusable and scalable infrastructure code
+
+- Integration of GitHub Actions with AWS for automated deployments
+
+- Emphasis on security best practices through secret management and remote state
+
+- Practical demonstration of Infrastructure as Code (IaC) in a healthcare analytics context
+
+This setup is ideal for short-term authentication needs in projects where continuous integration with cloud services is essential.
